@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.pngall.com/wp-content/uploads/11/Weather-PNG-Images.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+<body>
+
+    <h1 id="heading">Weather App</h1>
+    
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="notFound">
+            <img src="Assests/not found.png" alt="">
+        </div>
+        <div class="weather">
+            <img src="Assests/cloud.png" alt="">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Karachi</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="Assests/humidity-icon-512x419-5m7ztixz.png" alt="">
+                    <div>
+                        <div class="humidity">50%</div>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Assests/wind.png" alt="">
+                    <div>
+                        <div class="wind">15 Km/h</div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/27094b9535.js" crossorigin="anonymous"></script>
+</body>
+</html>
